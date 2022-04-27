@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
-export const SmallButton = styled.button`
+export const SmallButton = styled(Link)`
 	/* Join our Community button */
 
 	/* Auto layout */
@@ -8,15 +9,17 @@ export const SmallButton = styled.button`
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
-	align-items: center;
-	padding: 10px 26px;
 
+	padding: 10px 26px;
+	text: align-center;
 	position: static;
 	width: 236px;
 	height: 47px;
 	left: 346px;
 	top: 16px;
 
+	text-decoration: none;
+	text-align: center;
 	background: #0b1686;
 	border-radius: 20px;
 

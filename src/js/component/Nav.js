@@ -22,7 +22,7 @@ export function Nav() {
 						</a>
 					</li>
 					<li>
-						<SmallButton>Join our Community</SmallButton>
+						<SmallButton to="">Join our Community</SmallButton>
 					</li>
 					<li>
 						<a href="">About us</a>

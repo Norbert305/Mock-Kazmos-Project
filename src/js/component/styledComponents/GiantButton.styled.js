@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
-export const GiantButton = styled.button`
+export const GiantButton = styled(Link)`
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
@@ -11,6 +12,8 @@ export const GiantButton = styled.button`
 	height: 138px;
 	left: 450px;
 	top: 443px;
+
+	text-decoration: none;
 
 	/* Glass */
 
