@@ -13,8 +13,8 @@ TopBackground.second = styled.div`
 	position: absolute;
 	width: 1573.91px;
 	height: 394.31px;
-	left: -50.77px;
-	top: 929.98px;
+	left: 200.77px;
+	top: 735.98px;
 	transform: rotate(-8.22deg);
 
 	.trimmed-cover {
