@@ -1,41 +1,57 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
+import { Container } from "./Container.styled";
+// import { Link } from "react-scroll";
 
-export const NavBar = styled.nav` 
+export const Header = styled.header`
+	position: absolute;
+	width: 100%;
+`;
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+Header.Container = styled(Container)`
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+`;
 
-  li, h2, img {
-    display: inline;
-  }
+Header.NavBar = styled.nav``;
 
-  a, button  {
-      display: block;
-      float right;
-      padding: 8px;
-      color: white;
-      text-decoration: none;
-  }
+Header.NavBar.List = styled.ul`
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+`;
 
-  h2 {
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 59px;
-    font-family: 'Montserrat';
-    font-style: normal;
-  }
+Header.NavBar.ListItem = styled.li`
+	margin-left: 30px;
+	list-style-type: none;
+`;
 
-  img {
-    width: 86px;
-    height: 56px;
-    margin: 8px 20px;
-  }
+Header.NavBar.Link = styled.a`
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 27px;
+	color: white;
+	text-decoration: none;
+`;
 
-font-size: 16px;
-font-weight: 100
-width: 100%
+Header.Logo = styled(Link)`
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+`;
 
+Header.Logo.Image = styled.img`
+	width: 86px;
+	height: 56px;
+	margin-right: 20px;
+`;
+
+Header.Logo.Text = styled.span`
+	color: white;
+	font-weight: 700;
+	font-size: 48px;
+	font-family: "Montserrat";
 `;

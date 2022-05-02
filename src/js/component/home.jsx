@@ -13,15 +13,9 @@ const Home = () => {
 	return (
 		<Router>
 			<div>
-				<Container>
-					<TopBackground>
-						<Nav />
-						<div style={{ margin: "50px auto" }}>
-							<Banner />
-						</div>
-					</TopBackground>
-					<DividerImage />
-				</Container>
+				<Nav />
+
+				<Banner />
 			</div>
 		</Router>
 	);

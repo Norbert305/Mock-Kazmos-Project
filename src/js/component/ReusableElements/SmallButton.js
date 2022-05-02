@@ -12,15 +12,9 @@ export const SmallButton = styled(Link)`
 
 	padding: 10px 26px;
 	text: align-center;
-	position: static;
-	width: 236px;
-	height: 47px;
-	left: 346px;
-	top: 16px;
-
 	text-decoration: none;
 	text-align: center;
-	background: #0b1686;
+	background: rgba(39, 117, 211, 1);
 	border-radius: 20px;
 
 	/* Inside auto layout */
@@ -28,7 +22,8 @@ export const SmallButton = styled(Link)`
 	flex: none;
 	order: 1;
 	flex-grow: 0;
-	margin: 0px 48px;
+	margin-left: 28px;
+	color: white;
 `;
 
 SmallButton.text = styled.p`
